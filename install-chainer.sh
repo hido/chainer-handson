@@ -8,6 +8,6 @@ sudo apt-get clean
 sudo apt-get -y install build-essential python-dev python-pip python-virtualenv libhdf5-dev
 source $HOME/.bash_profile
 pip install --user -U pip setuptools 
-pip install --user numpy=="1.11.0b3"
-pip install --user chainer=="1.8.0"
+pip install --user numpy
+pip install --user chainer=="1.15.0.1"
 
