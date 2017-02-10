@@ -9,5 +9,5 @@ sudo apt-get -y install build-essential python-dev python-pip python-virtualenv 
 source $HOME/.bash_profile
 pip install --user -U pip setuptools 
 pip install --user numpy
-pip install --user chainer=="1.15.0.1"
+pip install --user chainer=="1.20.0.1"
 
