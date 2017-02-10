@@ -9,10 +9,10 @@ You can download and run the notebooks on your Jupyter-enabled machine.
 - CUDA 7.5 (installed under /usr/local/cuda)
   - (Optional) cuDNN v4
 - Python 2.7
-- Chainer v1.15.0 or higher
+- Chainer v1.20.0.1 or higher
 - Additional python packages
-  - pyparsing
-  - pydot
+  - pyparsing == '2.1.10'
+  - pydot == '1.2.3'
   - jupyter
   - matplotlib
 
