@@ -4,7 +4,7 @@
 sudo apt-get -y build-dep python-matplotlib
 cd chainer-handson
 pip uninstall --user pyparsing
-pip install --user pyparsing=="1.5.7" pydot=="1.1.0" matplotlib
+pip install --user pyparsing=="2.1..10" pydot=="1.2.3" matplotlib
 pip install --user -U jupyter
 echo "export PATH=$HOME/.local/bin:\$PATH" >> $HOME/.bash_profile
 source $HOME/.bash_profile
