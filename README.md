@@ -2,14 +2,15 @@
 
 You can download and run the notebooks on your Jupyter-enabled machine.
 
-## Requirements
+## Tested environment
 
 - Ubuntu 14.04 LTS
 - NVIDIA GPU (recommended GTX 970 or higher)
 - CUDA 7.5 (installed under /usr/local/cuda)
-  - (Optional) cuDNN v4
-- Python 2.7
-- Chainer v1.20.0.1 or higher
+  - cuDNN v4 (optional)
+- Python 2.7 / 3.4
+- Chainer v1.20.0.1
+  - All version after v1.5.0 should work
 - Additional python packages
   - pyparsing == '2.1.10'
   - pydot == '1.2.3'
